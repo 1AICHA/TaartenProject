@@ -1,0 +1,112 @@
+ /* =============================================
+ * GENERAL
+ =============================================== */	
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+ /* =============================================
+ * MAIN
+ =============================================== */	
+
+ .main_content{
+ 	width: 100%;
+ 	margin: 0 auto;
+ }
+
+.main_content{
+ 	width: 85%;
+ 	margin: 0 auto;
+ }
+
+ .main_content{
+ 	text-align: center;
+ }
+
+.soortenTaarten{
+	display: flex;
+	justify-content: center;
+	padding: 2.5rem 0 1.5rem 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	color: #794523;
+}
+
+ .grid_box img{
+ 	max-width: 100%;
+ 	width: auto;
+ 	height: auto;
+ }
+
+ .picture_grid{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	padding-bottom: 2rem;
+ 	flex-flow: row wrap;
+ }
+
+ .grid_box{
+ 	padding: 1rem;
+ 	width: 24.5rem;
+ 	margin-top: 1.5rem;  
+ }
+
+.button {
+	display: inline;
+	padding: 1.5rem 1.5rem;
+	background-color: #ec0236;
+    margin: 0 auto;
+    border-radius: 30rem;
+}
+
+.button a {
+	color: white;
+}
+
+.button:hover{
+	background-color: #6ecfdd;
+	transition: background-color 300ms ease-in;
+}
+
+ @media (max-width: 37.5em) {
+ 	.soortenTaarten{
+ 		display: none;
+ 	}
+ }
+
+ /* =============================================
+ * CTA
+ =============================================== */	
+
+.cta {
+	margin-top: 1rem;
+	padding: 4.5rem 0; 
+}
+
+.cta .wrapper{
+	display: flex;
+	flex-direction: column;
+	color: #794523;
+}
+
+.cta p {
+	font-size: 3rem;
+	padding-bottom: 2rem;
+    text-align: center;
+}
+
+@media (max-width: 47.5em) {
+	.cta {
+		padding: 0rem;
+	}
+
+	.small {
+		text-align: right;
+	}
+
+	.cta p {
+		font-size: 2rem;
+	}	
+}
+
+

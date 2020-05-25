@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/start.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+	<div id="topbar">
+		<div class="wrapper">
+			<ul>
+				<li><a href="tel:052123456"><i class="fas fa-phone-volume"></i> 052/12.34.56</a></li>
+				<li><a href="mailto:info@taart-ename.be"><i class="fas fa-envelope"></i> info@taart-ename.be</a></li>
+			</ul>
+		</div>
+	</div>
+	<header>
+		<div class="wrapper">
+			<h1><a href="">Taart Ename</a></h1>	
+			<nav>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="realisaties.html">Onze creaties</a></li>
+					<li><a href="contact.html" title="current">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="wrapper">
+			<section>
+				<h3>Let's Talk!</h3>
+				<p>Benieuwd naar de mogelijkheden?</p>
+				<p>Laat hier je contactgegevens achter en wij nemen spoedig contact met je op.</p> <p>Velden met * zijn verplicht</p>
+				
+				<div class="splits">
+					<form action="#">
+						<p><label for="name">Naam*</label></p>
+						<p>	<input type="text" id="name" required></p>
+
+						<p><label for="email">E-mail*</label></p>
+						<p><input type="email" id="email" required></p>
+						
+						<p><label for="number">Telefoon*</label></p>
+						
+						<p><input type="text" id="number" required></p>
+						
+						<p><label for="desc">Comentaar*</label></p>
+						<p><textarea id="desc" cols="40" rows="5" required></textarea></p>
+						<input type="hidden" value="xyz">
+
+						<p>Je ideeën</p>
+						<p class="idea"> Ergens een leuke taart gezien? Of zijn er bijvoorbeeld objecten, kleuren, thema's,... die je graag in je taart wil verwerken? Stuur hier je fotos door.</p>
+
+						<p><input type="file" multiple accept=".jpeg,.jpg,.png"></p>
+							
+						<p>
+							<button id="buttonSubmit" type="submit">STUUR</button>
+							<button id="buttonCancel" type="submit" formnovalidate="" >ANNULEER</button>		
+						</p>
+					</form>
+
+					<div class="mailAndPhone">
+						<ul>
+							<li><a href="mailto:info@taarten-ename.be"> <i class="fas fa-envelope fa-2x"></i>info@taart-ename.be</a></li>
+							<li><a href="tel:052123456"> <i class="fas fa-phone-volume fa-2x"></i>Tel: 052123456</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<div class="social">
+				<ul>
+					<li>Volg ons</li>
+					<li><a href=""> <i class="fab fa-facebook-f"></i> </a></li>
+					<li><a href=""><i class="fab fa-instagram"></i></a></li>    
+				</ul>
+			</div>
+		</div>
+	</main>
+
+		<footer>
+			<div class="wrapper">
+				<div>
+					<small> &copy; 2019 copyright Taart Ename. Alle rechten. Design by Aicha Mokhtar</small>
+				</div>
+			</div>
+		</footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+
+ /* =============================================
+ * GENERAL
+ =============================================== */	
+body{
+	color: #794523;
+}
+
+ h3 {
+ 	font-size: 2rem;
+ }
+
+ p {
+ 	font-size: 1.6rem;
+ 	line-height: 2.25rem;
+ }
+
+ main {
+ 	margin-top: 4rem;
+ }
+
+/* =============================================
+ * FORM
+ =============================================== */	
+
+.splits{
+	display: flex;
+	margin-top: 3rem;
+}
+
+form {
+	width: 50%;
+}
+
+#name, #email, #number{
+ 	display: block;
+ 	border-radius: 1rem;
+ 	margin-bottom: 1.5rem;
+ 	margin-top: 0.5rem;
+ 	height: 3.5rem;
+ 	border: solid 0.1rem;
+    color: #794523;
+    width: 80%;
+ }
+
+
+#desc{
+ 	border-radius: 1rem;
+ 	display: block;
+ 	width: 80%;
+ 	margin-bottom: 1.5rem;
+ 	margin-top: 0.5rem;
+ 	height: 12rem;
+ 	border: solid 0.1rem;
+    color: #794523;
+ }
+
+ .idea {
+ 	 width: 82%;
+ }
+
+button{
+ 	font-size: 1.5rem;
+ 	font-weight: 500;
+ 	background-color: white;
+ 	color: #fff;
+ 	border-radius: 1rem;
+ 	width: 35%;
+ 	height: 3rem;
+ 	cursor: pointer;
+ 	color: #794523;
+ 	margin: 1rem 2rem 1rem 0;
+ }
+
+button:hover{
+	background-color: #6ecfdd;
+	transition: background-color 300ms ease-in;
+}
+
+input[type="file"] {
+	margin: 1rem 0;
+	padding: 1rem 1rem 1rem 0rem;
+	width: 80%;
+	font-size: 1.6rem;
+}
+
+.mailAndPhone ul {
+ 	display: flex;
+ 	padding: 1rem 0;
+ }
+
+.mailAndPhone li, a {
+ 	color: #794523;
+ }
+
+ .mailAndPhone a, .social a {
+ 	text-transform: none;
+ }
+
+@media (max-width: 47.5em) {
+	.social ul {
+ 		flex-direction: column;
+ 		padding: 2rem 0; 
+ 	}
+
+ 	.social ul li {
+ 		padding: 1rem 0;
+ 	}
+
+ 	form {
+		width: 100%;
+	}
+
+	section h3, section p {
+		padding: 0rem 2rem;
+	}
+
+	input[type="file"] {
+		width: 100%;
+	}
+
+	.mailAndPhone ul {
+ 		display: block;
+ 		margin: 1rem 4rem 0rem 4rem;
+ 	}
+
+	.mailAndPhone ul li {
+		padding: 1rem 0;
+ 	}
+
+ 	button {
+ 		width: 40%;
+ 	}
+}
+
+@media (max-width: 65.5em) { 
+
+	main {
+		margin: 4rem 2rem 0rem 2rem;
+	}
+
+}

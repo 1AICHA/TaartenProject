@@ -1,0 +1,176 @@
+/**
+ * General stylesheet for Website_klant
+ *
+ * @author Aicha Mokhtar 
+ *
+ */
+
+ /* =============================================
+ * GENERAL
+ =============================================== */	
+.wrapper {
+	max-width: 100rem;
+	margin: 0 auto;
+}
+
+
+ /* =============================================
+ * LAYOUT
+ =============================================== */
+body {
+	font-size: 1.6rem;
+}
+
+li {
+	list-style: none;
+	padding-left: 1.6rem;
+	padding-right: 1.6rem;
+}
+
+i {
+	padding-right: 0.4rem;
+}
+
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+ /* =============================================
+ * HEADER
+ =============================================== */
+#topbar {
+	margin-top: 1rem;
+}
+
+#topbar a {
+	color: #794523;
+	font-size: 1.6rem;
+	text-transform: lowercase;
+}
+
+#topbar ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+header {
+	margin-bottom: 1rem;	
+}
+
+header div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header div ul {
+	display: flex;
+}
+
+nav a {
+	color: #ec0236;
+}
+
+[title*=current] {
+	border-top-style: solid;
+	border-top-color: #6ecfdd;
+	border-bottom-style: solid;
+	border-bottom-color: #6ecfdd;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+ }   
+
+ nav a:hover {
+ 	color: #56d2e4;
+ }
+
+h1 a {
+	display: block;
+	background-image: url(../images/logo_red.svg);
+	width: 24rem; 
+	max-width: 100%;
+	height: 9rem; 
+	max-height: 100%;
+	white-space: nowrap; 
+	text-indent: 100%; 
+	overflow: hidden;  
+	background-size: 100% 100%;
+}
+
+/* ===============
+ Media queries
+ =============== */
+
+ @media (max-width: 37.5em) {
+
+ 	h1 a {
+ 		height: 7rem;
+ 		margin-top: 3rem;
+ 	}
+
+ 	#topbar ul {
+		justify-content: space-between;
+	}
+
+	header div {
+   		flex-direction: column;
+   	 	align-items: center;
+	}
+
+	nav {
+		padding: 2.5rem 0;
+		font-size: 1.3rem;
+	}
+
+ }
+
+
+
+
+ /* =============================================
+ * FOOTER 
+ =============================================== */
+.social ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4rem 0;
+	color: #56d2e4;
+	font-size: 2rem;
+}
+
+.social a {
+	color: #56d2e4;
+}
+
+footer {
+	background-color: #e0b79d;
+	padding: 1rem 0;
+	text-align: center;
+}
+
+small {
+	color: #6b3d1d;
+	text-align: center;
+}
+
+/* ===============
+ Media queries
+ =============== */
+
+ @media (max-width: 47.5em) {
+
+ 	.splits{
+ 		flex-direction: column;
+ 	}
+
+ 	.social ul {
+ 		font-size: 1.5rem;
+ 	}
+ }
+
+ 

@@ -1,0 +1,27 @@
+/**
+ * Stylesheet voor alle tabbladen
+ *
+ * @author Aicha Mokhtar
+ *
+ */
+
+
+html {
+	font-size: 0.625em;  /* set 1 rem = 16px * 0.625 = 10px */
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0; 
+	padding: 0; 
+}
+
+img {
+	border: 0;
+}
+
+
+h3 {
+	font-size: 4rem;
+}
+	

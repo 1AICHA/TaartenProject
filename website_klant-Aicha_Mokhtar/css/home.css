@@ -1,0 +1,297 @@
+ /* =============================================
+ * GENERAL
+ =============================================== */
+
+body {
+	font-size: 1.6rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li {
+	list-style: none;
+	padding-left: 1.6rem;
+	padding-right: 1.6rem;
+}
+
+i {
+	padding-right: 0.4rem;
+}
+
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+h2 {
+	padding: 2rem 0;
+	font-size: 3.6rem;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h3 {
+	font-size: 3rem;
+	padding: 2rem 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+@media (max-width: 47.5em) {
+
+	h2 {
+		font-size: 2.6rem;
+	}
+
+	h3 {
+		font-size: 2.25rem;
+	} 
+}
+
+
+@media (max-width: 64em) {
+	main {
+		margin: 0rem 2rem 0rem 2rem;
+	}
+}
+
+ /* =============================================
+ * BANNER
+ =============================================== */
+
+#banner {
+	background-image: url(../images/chocobom_rood_banner.jpg);
+	background-repeat: no-repeat;
+  	height: 60rem;
+  	background-size: 100% 100%;
+  	background-position: center;
+  	display: flex;
+  	align-items: center;
+}
+
+#banner .tekst {
+	width: 75%;
+	margin: 0 auto;
+    background-color: white;
+    padding: 4rem 1rem;
+    color: #ec0236;
+    font-weight: bold;
+    border-color: #ec0236;
+    border-style: solid;
+    border-radius: 1rem;
+    opacity: 0.9;
+    text-align: center;	
+}
+
+#banner p {
+	font-size: 3rem;
+	padding-bottom: 2rem;
+}
+
+.button {
+	display: inline;
+	padding: 1.5rem 1.5rem;
+	background-color: #ec0236;
+    width: 50%;
+    border-radius: 30rem;
+    text-align: center;
+}
+
+.button.b {
+	margin: 0 auto;
+	width: 22.5%;
+}
+
+.button a {
+	color: white;
+}
+
+.button:hover{
+	background-color: #6ecfdd;
+	transition: background-color 300ms ease-in;
+}
+
+
+@media (max-width: 37.5em) {
+
+	#banner {
+  		height: 40rem;
+	}
+
+	#banner .tekst {
+		width: 80%;
+	
+	}
+
+	#banner p {
+		font-size: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.button {
+		font-size: 1.2rem;
+	}
+}
+
+
+
+ /* =============================================
+ * Welkom section
+ =============================================== */
+
+.welkom {
+	color: #794523;
+	padding: 1.5rem 1rem 3rem 1rem;
+}
+
+
+.welkom p {
+	font-size: 2rem;
+}
+
+@media (max-width: 37.5em) {
+
+	.welkom {
+		padding: 1rem;
+	}
+
+	.welkom p {
+		font-size: 1.7rem;
+		overflow: scroll;
+	}
+}
+
+
+ /* =============================================
+ * CONTENT-section
+ =============================================== */
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.wrapper .content section {
+	color: #794523;
+	text-align: left;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+}
+
+section p:first-of-type {
+	margin: 1rem 0 1rem 0;
+	height: 9.5rem;
+}
+
+.content.one, .content.two {
+	width: 45%;
+}
+
+.wrapper .content.one div{
+	width: 45%;
+}
+
+.wrapper .content.two div {
+	width: 74%;	
+}
+
+.content div img {
+	max-width: 90%;
+}
+
+.content section p {
+	font-size: 1.7rem;
+}
+
+.content section p:last-of-type {
+	font-size: 1.6rem;
+}
+
+@media (max-width: 47.5em) {
+
+	.flex {
+		flex-direction: column;
+	}
+
+	.wrapper .content section {
+		width: 100%;
+		text-align: center;
+	}
+
+	.content div img {
+		height: 28rem;
+		max-width: unset;
+	}
+
+	.content section p {
+		font-size: 1.5rem;
+		overflow: scroll;
+	}
+
+	.content section p:last-of-type {
+		font-size: 1.3rem;
+	}
+
+	.content.one, .content.two {
+		width: unset;
+	}
+
+	.wrapper .content.one div,  .wrapper .content.two div {
+		width: 100%;
+	}
+
+	section p:first-of-type {
+		margin: 1rem 1rem 1rem 1rem;
+		height: 6.5rem;
+	}	
+
+	.content section .button {
+		width: 50%;
+    	margin: 0 auto;
+	}
+
+} 
+
+
+
+ /* =============================================
+ * CTA-section
+ =============================================== */
+
+
+.cta {
+	margin-top: 5rem;
+}
+
+.cta .wrapper{
+	display: flex;
+	flex-direction: column;
+	color: #794523;
+}
+
+.cta p {
+	   font-size: 3rem;
+	   padding-bottom: 2rem;
+	   padding-top: 3rem;
+	   text-align: center;
+}
+
+@media (max-width: 47.5em) {
+	.cta {
+		margin-top: 2.5rem;
+		padding-top: 0rem;
+	}
+
+	.cta p {
+		font-size: 2rem;
+	}
+
+	.button.b {
+		width: unset;
+	}
+}
